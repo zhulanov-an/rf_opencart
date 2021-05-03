@@ -5,11 +5,11 @@ Resource  ../PageObjects/MainPage.robot
 
 Suite Setup    Open Browser    browser=${BROWSER}
 Suite Teardown    Close Browser
-Test Setup    go to    url=https://demo.opencart.com
+Test Setup    go to    url=${URL}
 
 *** Variables ***
 ${BROWSER}    chrome
-${REQUEST}    Your Store
+${URL}    https://demo.opencart.com
 
 *** Test Cases ***
 Check title

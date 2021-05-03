@@ -129,6 +129,3 @@ dmypy.json
 .pyre/
 /.idea/
 /Results/
-/log.html
-/output.xml
-/report.html
